@@ -1,0 +1,139 @@
+body {
+    margin: 0 auto;
+    overflow: hidden;
+
+    color: #e6ffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.status {
+    position: absolute;
+
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+
+    gap: 40px;
+    background-color: green;
+    border-bottom: 2px yellowgreen solid;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+    color: yellowgreen;
+}
+
+.holder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#login-errors {
+    font-size: 12px;
+    height: 10px;
+    font-weight: bold;
+    color: rgb(146, 94, 27);
+}
+
+.login {
+    z-index: 5;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    border: 2px solid yellowgreen;
+    width: 260px;
+    color: greenyellow;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.login-input {
+    border: 5px solid #e6f2ff;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 5px solid yellowgreen;
+    color: white;
+}
+
+.btn {
+    background-color: greenyellow;
+    border: 5px solid yellowgreen;
+    color: black;
+    border-radius: 10px;
+    width: 80%;
+    font-size: 24px;
+}
+
+.display {
+    z-index: 1;
+    font-size: 32px;
+    font-weight: bold;
+    color: yellowgreen;
+    text-shadow: 2px 2px black;
+}
+
+.debug {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    font-size: 24px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    left: 10px;
+    bottom: 10px;
+    opacity: 0.4;
+    color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.white {
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+
+.black {
+    color: black;
+    width: 30px;
+    height: 30px;
+}
+
+.gray {
+    color: gray;
+    width: 30px;
+    height: 30px;
+}
+
+.skin {
+    width: 100%;
+    text-align: center;
+
+}
+
+#type-selector {
+    margin-top: 10px;
+    height: 80px;
+    background-color: yellowgreen;
+    width: 200px;
+    font-size: 20pt;
+    text-align: center;
+    border-radius: 15px;
+}
